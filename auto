@@ -1,0 +1,7 @@
+cd /path/to/auto-social-ecom-bot
+git init
+git add .
+git commit -m "Initial commit - Auto Social Ecom Bot"
+# use your GitHub username and desired repo name
+REPO_NAME="auto-social-ecom-bot"
+gh repo create YOUR_GITHUB_USERNAME/$REPO_NAME --private --description "Auto Social Ecom Bot" --source=. --remote=origin --push
